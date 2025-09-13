@@ -1,0 +1,81 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+  border-radius: 10px;
+}
+header .highlight {
+  color: #00bcd4;
+}
+
+/* Sections */
+section {
+  margin: 30px 0;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Skills */
+ul {
+  list-style: none;
+}
+ul li {
+  padding: 8px 0;
+}
+
+/* Projects */
+.project-card {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Contact */
+#contact button {
+  background: #00bcd4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#contact button:hover {
+  background: #0097a7;
+}
+#msg {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  background: #222;
+  border-radius: 10px;
+}
